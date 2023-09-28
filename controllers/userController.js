@@ -5,7 +5,7 @@ const env = require("../config/environment");
 module.exports.healthCheck = (req, res) => {
   return res.status(200).json({
     success: true,
-    message: "health",
+    message: "health check up",
   });
 };
 
